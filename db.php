@@ -1,11 +1,13 @@
 <?php
+
 session_start();
+include('includes/config.php');
 
 $conn = mysqli_connect(
-  'localhost',
-  'root',
-  'password123',
-  'php_mysql_crud'
+  $host,
+  $usuario,
+  $clave,
+  $bd
 ) or die(mysqli_erro($mysqli));
 
 ?>

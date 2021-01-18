@@ -1,6 +1,6 @@
-CREATE DATABASE php_mysql_crud;
+CREATE DATABASE php_mysql_test;
 
-use php_mysql_crud;
+use php_mysql_test;
 
 CREATE TABLE task(
   id INT(11) PRIMARY KEY AUTO_INCREMENT,
